@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="10px" viewBox="0 0 15 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="GSMA-Landing-Page-2" transform="translate(-1253.000000, -2185.000000)" stroke="#95236C" stroke-width="4">
+            <g id="Group-11" transform="translate(0.000000, 1961.000000)">
+                <polyline id="Path" transform="translate(1260.500000, 229.000000) scale(1, -1) rotate(-90.000000) translate(-1260.500000, -229.000000) " points="1263 234 1258 229 1263 224"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

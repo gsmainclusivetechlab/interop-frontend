@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>help-circle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="GSMA-Mobile-Responsive" transform="translate(-245.000000, -2917.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <g id="Group-8" transform="translate(112.000000, 2918.000000)">
+                <g id="Group" transform="translate(134.000000, 0.000000)">
+                    <g id="help-circle">
+                        <circle id="Oval" cx="8" cy="8" r="8"></circle>
+                        <path d="M5.672,5.6 C6.0603495,4.49603555 7.1883069,3.83312506 8.34174105,4.03096968 C9.4951752,4.22881431 10.3377435,5.22972234 10.3360027,6.4 C10.3360027,8 7.936,8.8 7.936,8.8" id="Path"></path>
+                        <line x1="8" y1="12" x2="8.008" y2="12" id="Path"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
