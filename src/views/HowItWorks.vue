@@ -244,7 +244,7 @@ export default {
   components: { AppHeader, Footer },
   data: () => ({
     props: {
-      tittle: "FEATURES B4LL BRINGS TO YOU",
+      tittle: "INSIDE THE INTEROPERABILITY TEST PLATFORM",
       breadCrumb: {
         tittle: "How it works",
         link: "/howitworks",

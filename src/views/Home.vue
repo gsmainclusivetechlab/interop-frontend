@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    
     <div class="home-header">
       <NavBar />
       <div class="slider-portfolio">
@@ -13,29 +14,31 @@
         >
           <b-carousel-slide>
             <!-- <b-container> -->
-            <h1>BIOMETRICS FOR ALL (B4LL)</h1>
+            <h1>MOBILE MONEY
+            </br>
+            INTEROPERABILITY</h1>
             <div class="biometric-content-carousal">
               <h4>
-                An opportunity to lift the barriers of digital inclusion in
-                emerging markets
+                Supporting the industry to accelerate 
+                </br> the third-part on-boarding and integrations.
               </h4>
               <div class="os-system-wrap">
                 <ul>
                   <li>
-                    <a href="https://apps.apple.com/gb/app/gsma-b4ll/id1566270261" target="_blank">
+                    <a href="http://interop.gsmainclusivetechlab.io/" target="_blank">
                     <img
-                      src="../assets/images/ios.svg"
+                      src="../assets/images/download-itp.png"
                       class="img-fluid"
-                      alt=""
+                      alt="Access the ITP"
                     />
                     </a>
                   </li>
                   <li>
-                    <a href="https://play.google.com/store/apps/details?id=com.gsmab4all" target="_blank">
+                    <a href="https://compliance.mobilemoneyapi.io/login" target="_blank">
                     <img
-                      src="../assets/images/google.svg"
+                      src="../assets/images/download-compliance.png"
                       class="img-fluid"
-                      alt=""
+                      alt="Access the Compliance Platform"
                     />
                     </a>
                   </li>
@@ -48,87 +51,7 @@
                 class="img-fluid slider-img"
                 width="1024"
                 height="480"
-                src="../assets/images/banner-illustration-1.png"
-                alt="image slot"
-              />
-            </template>
-          </b-carousel-slide>
-          <b-carousel-slide>
-            <!-- <b-container> -->
-            <h1>BIOMETRICS FOR ALL (B4LL)</h1>
-            <div class="biometric-content-carousal">
-              <h4>
-                An opportunity to lift the barriers of digital inclusion in
-                emerging markets
-              </h4>
-              <div class="os-system-wrap">
-                <ul>
-                  <li>
-                    <!-- <a href="#"></a> -->
-                    <img
-                      src="../assets/images/ios.svg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </li>
-                  <li>
-                    <!-- <a href="#"></a> -->
-                    <img
-                      src="../assets/images/google.svg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- </b-container> -->
-            <template #img>
-              <img
-                class="d-block img-fluid slider-img"
-                width="1024"
-                height="480"
-                src="../assets/images/banner-illustration-2.png"
-                alt="image slot"
-              />
-            </template>
-          </b-carousel-slide>
-          <b-carousel-slide>
-            <!-- <b-container> -->
-            <h1>BIOMETRICS FOR ALL (B4LL)</h1>
-            <div class="biometric-content-carousal">
-              <h4>
-                An opportunity to lift the barriers of digital inclusion in
-                emerging markets
-              </h4>
-              <div class="os-system-wrap">
-                <ul>
-                  <li>
-                    <!-- <a href="#"></a> -->
-                    <img
-                      src="../assets/images/ios.svg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </li>
-                  <li>
-                    <!-- <a href="#"></a> -->
-                    <img
-                      src="../assets/images/google.svg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- </b-container> -->
-            <template #img>
-              <img
-                class="d-block img-fluid slider-img"
-                width="1024"
-                height="480"
-                src="../assets/images/banner-illustration-3.png"
+                src="../assets/images/pics-interface.png"
                 alt="image slot"
               />
             </template>
@@ -136,6 +59,8 @@
         </b-carousel>
       </div>
     </div>
+    
+    <!-- FRAME 01: INTRODUCTION -->
     <div class="digital-wrapper ">
       <b-container>
         <b-row>
@@ -155,10 +80,11 @@
             <div class="content-digital">
               </br>
               <p>
-                Biometrics For All offers an Interactive Voice Response (IVR)
-                call centre and mobile application with multiple use cases
-                showcasing the potential of biometrics to advance financial
-                inclusion in emerging markets.
+                1. Plug and play testing
+                </br>2. Test environment code is done and open source
+                </br>3. Customisable use cases and test cases
+                </br>4. Manage multiple partners in the same platform
+                </br>5. Validation of partner’s tests
               </p>
               <p>
                 It currently offers enrolment and authentication using voice, with fingerprint and face recognition features to come soon and the scope to adopt additional modalities as well.
@@ -169,84 +95,91 @@
         </b-row>
       </b-container>
     </div>
-    <section class="digital-frame-bottom-content">
-      <b-container>
-        <b-row>
-          <b-col cols="12">
-            <div class="full-width-banner text-center">
-              <h4>
-                Empower your customers with inclusive biometric solutions
-              </h4>
+
+    <!-- FRAME 02: LAPTOP -->
+    <section class="bio-all">
+      <div class="container">
+        <div class="bio-all-contents">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="bio-content-wrap">
+                <h2>Features</h2>
+                <p>
+                  One of the targets of the B4LL project is to demonstrate the advantages of using voice and speech recognition for identification and authentication of users to access digital services.
+                </p>
+                <p>
+                  This showcase consists of an IVR call centre that allows the user to navigate through a menu of different possibilities, using voice bots which can be an alternative to requiring someone to present physical ID.
+                </p>
+                <p>
+                  The use cases available are a simulation of real services and
+                  aim to demonstrate the use of voice registration and
+                  authentication.
+                </p>
+              </div>
             </div>
-            <div class="mobile-group-banner"></div>
-          </b-col>
-        </b-row>
-      </b-container>
+            <div class="col-12 col-lg-6">
+              <div class="img-bio">
+                <img
+                  src="../assets/images/laptop.png"
+                  class="img-fluid"
+                  alt="usecase-content"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- <section class="two-col-biometric-wrap text-white">
+    
+    <!-- FRAME 03: PROBLEMS -->
+    <section class="two-col-biometric-wrap text-white">
       <b-container>
         <b-row class="justify-content-start align-items-center">
           <b-col cols="12" xl="6">
             <div class="biometric-content">
               <h2>
-                Meet our <br />
-                Biometric Content
+                Problems and Solutions
               </h2>
               <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over
-              </p>
-              <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has
+                Biometrics For All allows mobile money providers to test
+                multiple biometrics solutions available in the market. Our
+                solution was structured with a modular and flexible
+                architecture, allowing new biometrics providers to include their
+                solutions to showcase both in our IVR call centre and in the
+                mobile app. Our team is constantly evolving the assets,
+                increasing the range of possible suppliers available. If you are
+                a biometric supplier and would like to contribute to our
+                showcase, please
+                <a
+                  href="https://www.gsma.com/mobilefordevelopment/mobile-money/gsma-inclusive-tech-lab/"
+                  target="_blank"
+                >
+                  contact the Inclusive Tech lab.</a
+                >
               </p>
             </div>
           </b-col>
           <b-col cols="12" xl="6">
             <div class="biometric-img-block">
               <b-row
-                class="justify-content-center align-items-center gutter-20"
+                class="justify-content-center align-items-center gutter-20 flex-md-column"
               >
-                <b-col cols="12" md="6">
-                  <div class="bg-biometric bg-black">
-                    <img
-                      src="../assets/images/biometric-provide-icon-1.svg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                </b-col>
-                <b-col cols="12" md="6">
-                  <div class="biometric-right-col">
-                    <div class="bg-biometric2 bg-white mb-20">
-                      <img
-                        src="../assets/images/biometric-provide-icon-2.svg"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div class="bg-biometric3 bg-blue">
-                      <img
-                        src="../assets/images/biometric-provide-icon-3.svg"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                  </div>
+                <b-col cols="12" md="7">                
                 </b-col>
               </b-row>
             </div>
           </b-col>
         </b-row>
       </b-container>
-    </section> -->
+    </section>
+
+    
     <div class="digital-wrapper feature-wrap bg-greys">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="feature-content text-center">
-              <h2>Why choose Biometrics For All?</h2>
+              <h2>Why use the Interoperability Testing Platform</h2>
               <h6>
                 Drive your business to unlock new security technologies for your
                 customers
@@ -410,7 +343,7 @@ export default {
 </script>
 <style>
 .home-header {
-  background-image: linear-gradient(180deg, #6b3076 0%, #424985 100%);
+  background-image: linear-gradient(180deg, #02568D 0%, #424985 100%);
 }
 .home-header::before {
   content: "";
@@ -555,7 +488,7 @@ export default {
   padding-top: 60px;
   padding-bottom: 32px;
 }
-.digital-wrapper::before {
+/*.digital-wrapper::before {
   content: "";
   background-image: url("../assets/images/biometric-bg-icon-2.png");
   background-position: center;
@@ -566,8 +499,8 @@ export default {
   height: 232px;
   left: 11px;
   top: 36px;
-}
-.digital-wrapper::after {
+}*/
+/*.digital-wrapper::after {
   content: "";
   background-image: url("../assets/images/biometric-bg-icon-1.png");
   background-position: center;
@@ -578,11 +511,11 @@ export default {
   bottom: 0;
   width: 141px;
   height: 135px;
-}
+}*/
 
 .two-col-biometric-wrap {
   min-height: 556px;
-  background-image: url("../assets/images/group-9.png");
+  background-image: linear-gradient(180deg, #02568D 0%, #424985 100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -601,9 +534,7 @@ export default {
 .two-col-biometric-wrap .bg-biometric2,
 .two-col-biometric-wrap .bg-biometric3 {
   justify-content: center;
-
   display: flex;
-
   align-items: center;
   margin: auto;
   border-radius: 10px;
@@ -629,7 +560,8 @@ export default {
 }
 .two-col-biometric-wrap .bg-biometric::before {
   content: "";
-  background-image: url("../assets/images/biometric-bg-icon-1.png");
+  /*background-image: url("../assets/images/biometric-bg-icon-2.png");*/
+  background-image: url("../assets/images/dots-01.png");
   position: absolute;
   background-position: center;
   background-size: contain;
@@ -642,7 +574,8 @@ export default {
 }
 .two-col-biometric-wrap .bg-biometric2::before {
   content: "";
-  background-image: url("../assets/images/biometric-bg-icon-2.png");
+  /*background-image: url("../assets/images/biometric-bg-icon-2.png");*/
+  background-image: url("../assets/images/dots-01.png");
   position: absolute;
   background-position: center;
   background-repeat: no-repeat;
@@ -687,6 +620,7 @@ export default {
   padding-right: 10px;
 }
 .two-col-biometric-wrap .biometric-right-col {
+  background-image: url("../assets/images/dots-01.png");
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -720,7 +654,7 @@ export default {
 
 .question-bold a {
   font-weight: 700;
-  color: #95236c;
+  color: #00568D;
   padding-left: 10px;
 }
 .question-wrapper {
@@ -759,10 +693,10 @@ export default {
 }
 
 .accordion .card .card-header .card-link[aria-expanded="true"] {
-  color: #95236c;
+  color: #00568D;
 }
 .accordion .card .card-header .card-link .collapsed > .when-opened {
-  color: #95236c;
+  color: #00568D;
   content: "";
   background-image: url("../assets/images/accordion-arrow-active.svg");
 }
@@ -807,9 +741,58 @@ export default {
   background-color: transparent;
   border-color: transparent;
 }
+
+.bio-all {
+  padding-top: 77px;
+  position: relative;
+  padding-bottom: 85px;
+}
+
+.bio-all::after {
+  content: "";
+  background-image: url("../assets/images/dots-01.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.bio-all .img-bio {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+}
+.bio-all .img-bio img {
+  margin-left: 85px;
+}
+@media only screen and (max-width: 1024px) {
+  .bio-all .img-bio img {
+    margin-left: 0;
+  }
+  .tutorial-section::after {
+    width: 250px;
+    height: 185px;
+  }
+  .mobile-app-content .img-app-wrap {
+    position: relative;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
 .btn,
 .btn:hover {
-  background-color: #95236c;
+  background-color: #00A5C7;
   border-radius: 6px;
   min-width: 155px;
   min-height: 50px;

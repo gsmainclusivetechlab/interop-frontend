@@ -60,7 +60,7 @@ a:hover {
 a:hover,
 p a:hover,
 p a {
-  color: #ae52c4;
+  color: #007bff;
 }
 h1 {
   font-size: 42px;

@@ -8,15 +8,15 @@
           <b-row>
             <b-col cols="12">
               <h2>
-                Ready? Test our IVR Call Centre and App Now!
+                Ready? Test Mobile Money Interoperability Now!
               </h2>
               <h4 class="text-white">
                 And keep your eyes peeled for new functionalities coming soon
               </h4>
               <p>
                 <em>
-                  Be the innovator in your market. Experience how mobile
-                  biometrics can be used to facilitate seamless payments
+                  Be the innovator in your market, provide interoperability
+                  and expand and facilitate seamless payments and transfers.
                 </em>
               </p>
               <!-- <ul>
@@ -168,13 +168,15 @@
             </b-col>
           </b-row>
         </b-container>
+        <!--
         <div class="img-footer-biometric">
           <img
             src="../../assets/images/footer-bg-image.svg"
             class="img-fluid"
             alt="footer-bg-image"
           />
-        </div>
+        </div> 
+        -->
       </div>
     </footer>
   </div>
@@ -261,7 +263,7 @@ ul {
 }
 
 .bg-1 {
-  background: #95236c;
+  background: #00568D;
 }
 *,
 ::after,
@@ -273,7 +275,7 @@ div {
 }
 
 .btn-newscase {
-  color: #95236c;
+  color: #00568D;
   background: #fff;
   padding: 16px 30px;
   line-height: normal;
@@ -285,7 +287,7 @@ div {
   padding-right: 5px;
 }
 .btn-newscase:hover {
-  color: #95236c;
+  color: #00568D;
   text-decoration: none;
 }
 footer ul {
@@ -347,7 +349,7 @@ footer p.copyright {
   box-sizing: border-box;
 }
 hr {
-  background: #d8d8d8;
+  background: #00568D;
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
@@ -370,7 +372,7 @@ hr {
   right: 2px;
   top: 20px;
   border-radius: 5px;
-  background: #95236c;
+  background: #00568D;
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -392,7 +394,7 @@ hr {
   content: "";
   width: 12px;
   height: 12px;
-  background-image: url("../../assets/images/footer-bg-image.svg");
+  /*background-image: url("../../assets/images/footer-bg-image.svg");*/
   background-size: contain;
   background-position: center;
   position: absolute;
