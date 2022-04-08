@@ -14,14 +14,11 @@
         >
           <b-carousel-slide>
             <!-- <b-container> -->
-            <h1>MOBILE MONEY
-            </br>
-            INTEROPERABILITY</h1>
+            <h1>MOBILE MONEY</h1>
+            <h1>INTEROPERABILITY</h1>
             <div class="biometric-content-carousal">
-              <h4>
-                Supporting the industry to accelerate 
-                </br> the third-part on-boarding and integrations.
-              </h4>
+              <h4> Supporting the industry to accelerate </h4>
+              <h4> the third-part on-boarding and integrations.</h4>
               <div class="os-system-wrap">
                 <ul>
                   <li>
@@ -64,32 +61,26 @@
     <div class="digital-wrapper ">
       <b-container>
         <b-row>
-          <b-col cols="12" md="5">
+          <b-col cols="12" md="7">
             <div class="digital-frame-left-content">
               <h3>
-                Unifying the digital identification ecosystem
+                Mobile Money Interoperability
               </h3>
-              <h4>
-                Are you a mobile operator or financial services provider looking
-                to adopt biometrics in emerging markets?
-              </h4>
-              <a href="/howitworks" class="btn btn-lap">Learn More</a>
+              <p>
+                In the payments landscape, interoperability refers to the ability to make an electronic money transfer between two accounts held at different institutions. In the specific context of mobile money, interoperability implies the transfer of mobile financial services between providers, many of whom are mobile network operators (MNOs), and between these providers and banks. This is known as account-to-account interoperability.
+              </p>
+              
             </div>
           </b-col>
-          <b-col cols="12" md="7">
+          <b-col cols="12" md="5">
             <div class="content-digital">
-              </br>
+              
+              <h4> Are you a mobile operator or financial services provider looking to adopt biometrics in emerging markets?</h4>
               <p>
-                1. Plug and play testing
-                </br>2. Test environment code is done and open source
-                </br>3. Customisable use cases and test cases
-                </br>4. Manage multiple partners in the same platform
-                </br>5. Validation of partner’s tests
+                <a href="/platform" align="right" class="btn btn-lap">Learn More Here</a>
               </p>
-              <p>
-                It currently offers enrolment and authentication using voice, with fingerprint and face recognition features to come soon and the scope to adopt additional modalities as well.
-              </p>
-              <a href="#" class="btn btn-mob">Learn More</a>
+              
+              
             </div>
           </b-col>
         </b-row>
@@ -103,17 +94,12 @@
           <div class="row">
             <div class="col-12 col-lg-6">
               <div class="bio-content-wrap">
-                <h2>Features</h2>
+                <h2>Connecting Financial Products</h2>
                 <p>
-                  One of the targets of the B4LL project is to demonstrate the advantages of using voice and speech recognition for identification and authentication of users to access digital services.
+                  In the context of mobile money, the term interoperability can be used in many ways, but the simplest use case is for mobile money providers (MMPs) to give customers the ability to transfer money between two accounts in different mobile money schemes, or between accounts at a mobile money scheme and a bank known as account-to-account (A2A) interoperability.
                 </p>
                 <p>
-                  This showcase consists of an IVR call centre that allows the user to navigate through a menu of different possibilities, using voice bots which can be an alternative to requiring someone to present physical ID.
-                </p>
-                <p>
-                  The use cases available are a simulation of real services and
-                  aim to demonstrate the use of voice registration and
-                  authentication.
+                  Interoperability can connect all customers, merchants, banks and other financial service providers creating an harmonised ecosystem and providing financial inclusion bridging all financial products and applications in any given market.
                 </p>
               </div>
             </div>
@@ -138,34 +124,22 @@
           <b-col cols="12" xl="6">
             <div class="biometric-content">
               <h2>
-                Problems and Solutions
+                Interoperability is Essential to Finance Ecosystem
               </h2>
               <p>
-                Biometrics For All allows mobile money providers to test
-                multiple biometrics solutions available in the market. Our
-                solution was structured with a modular and flexible
-                architecture, allowing new biometrics providers to include their
-                solutions to showcase both in our IVR call centre and in the
-                mobile app. Our team is constantly evolving the assets,
-                increasing the range of possible suppliers available. If you are
-                a biometric supplier and would like to contribute to our
-                showcase, please
-                <a
-                  href="https://www.gsma.com/mobilefordevelopment/mobile-money/gsma-inclusive-tech-lab/"
-                  target="_blank"
-                >
-                  contact the Inclusive Tech lab.</a
-                >
+                The adoption of interoperability must be commercially sustainable for participants, both in terms of OPEX and revenue opportunities. This requires the evaluation of different parameters, namely: cost, revenue, scalability, robustness, governance; and also a set of harmonised APIs and tools that make the onboarding process for interoperability players much easier and faster.
               </p>
+              
             </div>
           </b-col>
           <b-col cols="12" xl="6">
             <div class="biometric-img-block">
-              <b-row
-                class="justify-content-center align-items-center gutter-20 flex-md-column"
-              >
-                <b-col cols="12" md="7">                
-                </b-col>
+              <b-row class="justify-content-center align-items-center gutter-20 flex-md-column">
+              <p>
+                This is the reason why the Inclusive Tech Lab created an open-source platform to help industry players to evaluate different test cases, provide o-boarding and certification.                
+              </p>
+              
+
               </b-row>
             </div>
           </b-col>
@@ -179,10 +153,9 @@
         <div class="row">
           <div class="col-12">
             <div class="feature-content text-center">
-              <h2>Why use the Interoperability Testing Platform</h2>
+              <h2> How to make your products interoperable?</h2>
               <h6>
-                Drive your business to unlock new security technologies for your
-                customers
+                Drive your business to unlock new security technologies for your customers
               </h6>
             </div>
             <div class="three-col-feature-frame">
@@ -194,7 +167,7 @@
                       class="img-fluid"
                       alt="development"
                     />
-                    <h5>Tailored use cases</h5>
+                    <h5>Regulation</h5>
                     <h6>
                       We understand that every business is unique, so our team
                       is continuously developing new use cases and customising
@@ -209,7 +182,7 @@
                       class="img-fluid"
                       alt="trusted"
                     />
-                    <h5>Trusted technical expertise</h5>
+                    <h5>TBD</h5>
                     <h6>
                       Adopting a new technology/service can be tricky to
                       navigate, so we provide expertise to support you in
@@ -225,7 +198,7 @@
                       class="img-fluid"
                       alt="smartphones"
                     />
-                    <h5>Built for low-tech environments</h5>
+                    <h5>TBD</h5>
                     <h6>
                       Our solutions are built to be used on feature phones and
                       low-tech smartphones with a low-resolution camera or no
@@ -239,7 +212,9 @@
         </div>
       </div>
     </div>
-    <section class="question-wrapper">
+    
+    <!-- FRAME FAQ -->
+    <!-- <section class="question-wrapper">
       <b-container>
         <b-row>
           <b-col cols="12">
@@ -328,7 +303,7 @@
           </b-col>
         </b-row>
       </b-container>
-    </section>
+    </section> -->
     <Footer />
   </div>
 </template>

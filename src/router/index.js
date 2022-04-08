@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import HowItWorks from "../views/HowItWorks.vue";
+import Platform from "../views/Platform.vue";
 import Faq from "../views/Faq.vue";
 import TryB4All from "../views/TryB4All.vue";
 import RequestForm from "../views/RequestForm.vue";
@@ -17,9 +17,9 @@ const routes = [
     component: Home,
   },
   {
-    path: "/howitworks",
-    name: "HowItWorks",
-    component: HowItWorks,
+    path: "/platform",
+    name: "Platform",
+    component: Platform,
   },
   {
     path: "/faq",

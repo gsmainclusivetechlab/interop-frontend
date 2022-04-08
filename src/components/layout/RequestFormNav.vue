@@ -19,16 +19,16 @@
                   <router-link to="/">Home</router-link>
                 </b-nav-item>
                 <b-nav-item href="#">
-                  <router-link to="/howitworks">How it works</router-link>
+                  <router-link to="/platform">Platform</router-link>
                 </b-nav-item>
                 <b-nav-item href="#">
                   <router-link to="/tryb4all"> Try B4LL </router-link>
                 </b-nav-item>
                 <b-nav-item
-                  href="https://docs.biometrics.gsmainclusivetechlab.io/"
+                  href="https://docs.interop.gsmainclusivetechlab.io/"
                 >
                   <!-- <router-link to="/documentation">  -->
-                  <a href=" https://docs.biometrics.gsmainclusivetechlab.io/ "
+                  <a href="https://docs.interop.gsmainclusivetechlab.io/"
                     >Documentation</a
                   >
                   <!-- </router-link> -->

@@ -15,7 +15,7 @@ export default {
       content: `See how the features of our showcase can help mobile operators to bring the power of biometrics`,
       breadCrumb: {
         tittle: "How it works",
-        link: "/howitworks",
+        link: "/platform",
       },
     },
   }),

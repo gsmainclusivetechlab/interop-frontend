@@ -131,12 +131,12 @@
                       <a href="/">Home </a>
                     </li>
                     <li>
-                      <a href="/howitworks">How it works</a>
+                      <a href="/platform">How it works</a>
                     </li>
                     <li><a href="/tryb4all">Try B4LL</a></li>
                     <li>
                       <a
-                        href=" https://docs.biometrics.gsmainclusivetechlab.io/ "
+                        href="https://docs.interop.gsmainclusivetechlab.io/"
                         >Documentation</a
                       >
                     </li>
