@@ -158,7 +158,7 @@
             <p>
               The modular architecture of ITP encompasses a large number of elements and covers the entire end-to-end mobile money transaction ecosystem. This means that each module of the platform's code can be customised to meet the desired needs. This is one of the great potentials of ITP. In addition, we can also isolate a subset of modules for restricted testing, covering a specific part of the entire interoperability ecosystem. 
             </p>
-            <img src="../assets/images/Call.png" class="img-fluid" alt="Call" />
+            <!-- <img src="../assets/images/Call.png" class="img-fluid" alt="Call" /> -->
           </div>
         </div>
       </div>
