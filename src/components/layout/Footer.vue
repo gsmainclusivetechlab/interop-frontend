@@ -339,7 +339,7 @@ footer p.copyright {
 }
 .footer-bottom .text-center {
   text-align: center !important;
-  vertical-align: middle;
+  vertical-align: middle !important;
 }
 .footer-bg {
   background: #181818;

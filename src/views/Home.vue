@@ -65,7 +65,7 @@
     <div class="digital-wrapper grey-bg">
       <b-container>
         <b-row>
-          <b-col cols="12" md="7">
+          <b-col cols="12" md="6">
             <div class="digital-frame-left-content">
               <h3>
                 Mobile Money Interoperability
@@ -76,6 +76,7 @@
               
             </div>
           </b-col>
+          <b-col cols="12" md="1"></b-col>
           <b-col cols="12" md="5">
             <div class="content-digital">
               <h4> Are you a mobile operator or financial services provider looking to adopt biometrics in emerging markets?</h4>
@@ -126,6 +127,17 @@
     <section class="two-col-biometric-wrap text-white">
       <b-container>
         <b-row class="justify-content-start align-items-center">
+          
+          <b-col cols="12" xl="6">
+            <div class="biometric-img-block">
+              <img
+                  src="../assets/images/NewGraphic-interoperability-03.png"
+                  class="img-fluid"
+                  alt="usecase-content"
+                />
+            </div>
+          </b-col>
+
           <b-col cols="12" xl="6">
             <div class="biometric-content">
               <h2>
@@ -137,15 +149,7 @@
               This is the reason why the Inclusive Tech Lab created an open-source platform to help industry players to evaluate different test cases, provide o-boarding and certification.
             </div>
           </b-col>
-          <b-col cols="12" xl="6">
-            <div class="biometric-img-block">
-              <img
-                  src="../assets/images/laptop.png"
-                  class="img-fluid"
-                  alt="usecase-content"
-                />
-            </div>
-          </b-col>
+          
         </b-row>
       </b-container>
     </section>
@@ -478,7 +482,7 @@ export default {
   left: 11px;
   top: 36px;
 }*/
-/*.digital-wrapper::after {
+/* .digital-wrapper::after {
   content: "";
   background-image: url("../assets/images/biometric-bg-icon-1.png");
   background-position: center;
@@ -489,7 +493,7 @@ export default {
   bottom: 0;
   width: 141px;
   height: 135px;
-}*/
+} */
 
 .two-col-biometric-wrap {
   min-height: 556px;
@@ -728,7 +732,7 @@ export default {
 
 .bio-all::after {
   content: "";
-  background-image: url("../assets/images/dots-01.png");
+  /* background-image: url("../assets/images/dots-01.png"); */
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

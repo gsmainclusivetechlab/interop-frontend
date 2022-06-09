@@ -34,9 +34,9 @@
                 <b-nav-item href="#">
                   <router-link to="/about">About</router-link>
                 </b-nav-item>
-                <b-nav-item href="#">
+                <!-- <b-nav-item href="#">
                   <router-link to="/faq">FAQs</router-link>
-                </b-nav-item>
+                </b-nav-item> -->
               </b-navbar-nav>
             </b-navbar-nav>
           </b-collapse>
@@ -232,7 +232,7 @@ a {
     content: "";
     width: 100%;
     height: 2px;
-    background-color: #ae52c4;
+    background-color: #9cafe9;
     position: absolute;
     left: 0;
     right: 0;

@@ -49,6 +49,20 @@
     <section class="two-col-biometric-wrap text-white managing-content">
       <div class="container">
         <div class="row">
+          
+          
+          <div class="col-12 col-lg-5">
+            <div class="row">
+                <img
+                  src="../assets/images/itp-interface.png"
+                  class="img-fluid"
+                  alt="usecase-content"
+                />
+              </div>
+          </div>
+
+          <div class="col-12 col-lg-1"></div>
+
           <div class="col-12 col-lg-6">
             <div class="right-manage-img">
               <h2 class="mb-0">How does the ITP works?</h2>
@@ -106,16 +120,7 @@
               
             </div>
           </div>
-          <div class="col-12 col-lg-1"></div>
-          <div class="col-12 col-lg-5">
-            <div class="row">
-                <img
-                  src="../assets/images/itp-interface.png"
-                  class="img-fluid"
-                  alt="usecase-content"
-                />
-              </div>
-          </div>
+          
           
         </div>
       </div>
@@ -125,15 +130,7 @@
     <div class="mobile-app-content grey-bg">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-5">
-            <div>
-              <img
-                src="../assets/images/NewGraphic-interoperability-02.png"
-                class="img-fluid"
-                alt="mobile-app"
-              />
-            </div>
-          </div>
+
           <div class="col-12 col-lg-7">
             <div class="app-content-wrap">
               <h2>On-boarding and Certification</h2>
@@ -143,6 +140,16 @@
               <h6>
                 Therefore, any interested mobile operator or service provider can customise the available code to ensure that new participants follow the correct processes with respect to the interoperability protocol. For this, we provide documentation and direct support from our team to assist during the customisation process. All material is available on a page about the interoperability potential and how the Inclusive Tech Lab's technical assets can help speed up the testing and integration process.
               </h6>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-5">
+            <div>
+              <img
+                src="../assets/images/NewGraphic-interoperability-02.png"
+                class="img-fluid"
+                alt="mobile-app"
+              />
             </div>
           </div>
           
@@ -238,7 +245,7 @@ export default {
   content: "";
   position: absolute;
   left: 0;
-  background-image: url(../assets/images/bio-left.svg);
+  /* background-image: url(../assets/images/Bubble-small.png); */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -251,7 +258,7 @@ export default {
   content: "";
   position: absolute;
   right: 0;
-  background-image: url(../assets/images/video-bg-1.svg);
+  /* background-image: url(../assets/images/video-bg-1.svg); */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -354,7 +361,7 @@ export default {
 
 .bio-all::after {
   content: "";
-  background-image: url("../assets/images/bg-3.png");
+  /* background-image: url("../assets/images/bg-3.png"); */
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
