@@ -1,6 +1,8 @@
 <template>
   <div class="home">
     <AppHeader v-bind="props" />
+    
+    <!-- Section 01: Inclusive Tech Lab -->
     <div class="about-content-wrapper">
       <div class="container">
         <div class="row">
@@ -40,7 +42,109 @@
         </div>
       </div>
     </div>
-    <section class="two-col-biometric-wrap text-white bio-all-content">
+
+    <!-- Section 02: Project -->
+    <div class="about-content-wrapper two-col-biometric-wrap text-white">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-12 col-md-6">
+            <div class="img-about-content">
+              <img
+                src="../assets/images/Tech-lab.png"
+                class="img-fluid"
+                alt="Tech-lab"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <h2>Inclusive Tech Lab</h2>
+            <h6>
+              The
+              <a
+                href="https://www.gsma.com/mobilefordevelopment/mobile-money/gsma-inclusive-tech-lab/"
+                target="_blank"
+              >
+                GSMA Inclusive Tech Lab</a
+              >
+              supports the mobile money industry to develop the mobile financial
+              ecosystem, to enable a broad range of digital transactions and
+              make mobile wallets central to the lives of the financially
+              excluded and underserved, providing them with better solutions to
+              manage their financial resources and face economic shocks. Mobile
+              money has evolved to a platform of more than 1 billion accounts
+              reaching emerging market consumers and bringing financial access
+              to the previously underserved and excluded. The Inclusive Tech Lab
+              has published a set of harmonised Mobile Money Application
+              Programming Interfaces (APIs) and is now looking at expanding the
+              potential of mobile money through the use of biometrics for
+              financial transactions.
+            </h6>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <section class="two-col-biometric-wrap text-white managing-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="bio-all-content-wrap">
+              <h2>Biometrics for All</h2>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="bio-all-content-wrap">
+              <h5>
+                Biometrics for All seeks to show digital service providers the advantages and possibilities of using biometric solutions in low-tech environments. The main advantage of using biometrics in low tech environments comes from the ability to reach a larger audience of users.
+              </h5>
+              <h5>
+                This benefit is even more evident in places where the number of
+                national ID holders is reduced. Thus, in some developing
+                countries, starting from a scenario where access to national ID
+                is difficult, the registration and authentication of users on
+                mobile operators may be compromised. In this sense, the use of
+                biometrics allows the use of non-transferable information,
+                leading to greater adherence by users. This makes biometrics the
+                ideal and more accurate solution for validating personal data.
+              </h5>
+              
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="img-bio-content">
+              <h5>
+                If well implemented, biometrics authentication can unlock access
+                to a large number of previously difficult to reach customers,
+                such as: people with disabilities, less literate populations,
+                people with lack of national ID, featured phones users and much more.
+              </h5>
+              <h5 s>
+                The use of biometrics can increase the security to execute
+                mobile money transactions, such as international remittance.
+                Inscribed within well-designed platforms would not only enable
+                them to make greater and better use of their mobile wallets, but
+                also make usage more secure and attractive.
+              </h5>
+              <h5>
+                The GSMA is working with its members and mobile money industry
+                partners to support the process of implementing biometrics in
+                their markets.
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="text-white">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -86,13 +190,6 @@
                 partners to support the process of implementing biometrics in
                 their markets.
               </h6>
-            </div>
-            <div class="img-bottom">
-              <img
-                src="../assets/images/Biomet.png"
-                class="img-fluid"
-                alt="Biomet"
-              />
             </div>
           </div>
         </div>

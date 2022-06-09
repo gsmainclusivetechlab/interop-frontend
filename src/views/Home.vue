@@ -43,22 +43,26 @@
               </div>
             </div>
             <!-- </b-container> -->
+            
             <template #img>
-              <img
+              <div>
+                <img
                 class="img-fluid slider-img"
                 width="1024"
                 height="480"
-                src="../assets/images/pics-interface.png"
+                src="../assets/images/NewGraphic-interoperability-01.png"
                 alt="image slot"
-              />
+                />
+              </div>
             </template>
+            
           </b-carousel-slide>
         </b-carousel>
       </div>
     </div>
     
     <!-- FRAME 01: INTRODUCTION -->
-    <div class="digital-wrapper ">
+    <div class="digital-wrapper grey-bg">
       <b-container>
         <b-row>
           <b-col cols="12" md="7">
@@ -74,13 +78,14 @@
           </b-col>
           <b-col cols="12" md="5">
             <div class="content-digital">
-              
               <h4> Are you a mobile operator or financial services provider looking to adopt biometrics in emerging markets?</h4>
-              <p>
-                <a href="/platform" align="right" class="btn btn-lap">Learn More Here</a>
-              </p>
-              
-              
+              <h3> </h3>
+              <div  class="row center">
+                <p>
+                  <a href="/platform"  class="btn btn-lap">Learn More Here</a>
+                </p>
+            </div>
+              <h3></h3>
             </div>
           </b-col>
         </b-row>
@@ -88,7 +93,7 @@
     </div>
 
     <!-- FRAME 02: LAPTOP -->
-    <section class="bio-all">
+    <section class="bio-all ">
       <div class="container">
         <div class="bio-all-contents">
           <div class="row">
@@ -106,7 +111,7 @@
             <div class="col-12 col-lg-6">
               <div class="img-bio">
                 <img
-                  src="../assets/images/laptop.png"
+                  src="../assets/images/NewGraphic-interoperability-04.png"
                   class="img-fluid"
                   alt="usecase-content"
                 />
@@ -129,18 +134,16 @@
               <p>
                 The adoption of interoperability must be commercially sustainable for participants, both in terms of OPEX and revenue opportunities. This requires the evaluation of different parameters, namely: cost, revenue, scalability, robustness, governance; and also a set of harmonised APIs and tools that make the onboarding process for interoperability players much easier and faster.
               </p>
-              
+              This is the reason why the Inclusive Tech Lab created an open-source platform to help industry players to evaluate different test cases, provide o-boarding and certification.
             </div>
           </b-col>
           <b-col cols="12" xl="6">
             <div class="biometric-img-block">
-              <b-row class="justify-content-center align-items-center gutter-20 flex-md-column">
-              <p>
-                This is the reason why the Inclusive Tech Lab created an open-source platform to help industry players to evaluate different test cases, provide o-boarding and certification.                
-              </p>
-              
-
-              </b-row>
+              <img
+                  src="../assets/images/laptop.png"
+                  class="img-fluid"
+                  alt="usecase-content"
+                />
             </div>
           </b-col>
         </b-row>
@@ -765,9 +768,20 @@ export default {
   }
 }
 
-.btn,
-.btn:hover {
+.btn{
   background-color: #00A5C7;
+  border-radius: 6px;
+  min-width: 155px;
+  min-height: 50px;
+  color: #fff;
+  padding: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: #025e89;
   border-radius: 6px;
   min-width: 155px;
   min-height: 50px;
@@ -930,4 +944,5 @@ export default {
     height: 156px;
   }
 }
+
 </style>

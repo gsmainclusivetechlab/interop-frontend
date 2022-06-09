@@ -2,236 +2,167 @@
   <div class="home">
     <AppHeader v-bind="props" />
 
+    <!-- SECTION 01: The ITP -->
     <section class="bio-all">
       <div class="container">
         <div class="bio-all-contents">
           <div class="row">
             <div class="col-12 col-lg-6">
               <div class="bio-content-wrap">
-                <h2>IVR Call Centre</h2>
+                <h2>The Interoperability Test Platform</h2>
                 <p>
-                  One of the targets of the B4LL project is to demonstrate the advantages of using voice and speech recognition for identification and authentication of users to access digital services.
+                  The GSMA's Interoperability Test Platform is the first joint end-to-end test environment to test interoperable 
+                  mobile money solutions, including joining two key technologies, the <a href="https://www.gsma.com/mobilefordevelopment/mobile-money/mobile-money-api/"
+                target="_blank">GSMA Mobile Money API</a> and <a href="https://mojaloop.io/" target="_blank"> the Mojaloop.</a> 
+                  With this test platform, the GSMA provides the industry with an open-source and secure environment, enabling 
+                  ecosystem participants to test their systems across different use cases.
                 </p>
                 <p>
-                  This showcase consists of an IVR call centre that allows the user to navigate through a menu of different possibilities, using voice bots which can be an alternative to requiring someone to present physical ID.
-                </p>
-                <p>
-                  The use cases available are a simulation of real services and
-                  aim to demonstrate the use of voice registration and
-                  authentication.
+                  The test platform links two key technologies in the mobile money industry; first, the GSMA Mobile Money API, 
+                  which provides a modern harmonised API for mobile money transactions and management, enabling seamless 
+                  integration between service providers and mobile money operators, and second, the Gates Foundation’s Mojaloop, 
+                  open-source software to operate a financial hub.
                 </p>
               </div>
             </div>
             <div class="col-12 col-lg-6">
-              <div class="img-bio">
+              
+              <div class="row">
                 <img
-                  src="../assets/images/usecase-content.png"
+                  src="../assets/images/laptop.png"
                   class="img-fluid"
                   alt="usecase-content"
                 />
               </div>
+              <div  class="row center">
+              <p>
+                <a href="http://interop.gsmainclusivetechlab.io/" target="_blank" text-align="center" class="btn">Access the Platform</a>
+              </p>
+            </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- SECTION 02: How The ITP Works -->
     <section class="two-col-biometric-wrap text-white managing-content">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-6">
             <div class="right-manage-img">
-              <h2 class="mb-0">Use Cases</h2>
-              <p>
-                Our showcase is based on the advantages of using different types
-                of biometrics (such as fingerprint, face and voice recognition)
-                to address its potentials in different business needs.
-              </p>
-              <p>
-                For this, our demonstration has several use cases covering from
-                the biometric enrolment process to the verification to access
-                services. The number of use cases are always growing, and we
-                invite those interested to bring new ideas for us to implement.
-              </p>
-            </div>
-          </div>
-          <div class="col-12 col-lg-1"></div>
-          <div class="col-12 col-lg-7">
-            <div class="managing-box">
-              <div class="row">
-                <div class="col-12 col-md-6">
+              <h2 class="mb-0">How does the ITP works?</h2>
+                <p>
+                  The ITP makes the work of testing platform connections much easier and simple. It is based on plug-and-play solutions. 
+                </p>
+                
                   <div class="twoline-managing-frame">
                     <div class="img-manage">
                       <img
-                        src="../assets/images/feature-icon-1.png"
+                        src="../assets/images/feature-icon-9.png"
                         class="img-fluid"
                         alt="feature-icon-1"
                       />
                     </div>
                     <div class="content-manage-frame">
-                      <h5>Pay Utility Bills</h5>
+                      <h5>1. Select the type of test and the system under test </h5>
                       <p>
-                        Experience how simple it can be to pay a bill using your
-                        mobile.
+                        The sessions can be manually customised, or the platform suggests the tests based on a quick questionnaire.
                       </p>
                     </div>
                   </div>
-                </div>
-                <div class="col-12 col-md-6">
+
                   <div class="twoline-managing-frame">
                     <div class="img-manage">
                       <img
-                        src="../assets/images/feature-icon-7.png"
+                        src="../assets/images/feature-icon-10.png"
                         class="img-fluid"
-                        alt="Alerts"
+                        alt="feature-icon-1"
                       />
                     </div>
                     <div class="content-manage-frame">
-                      <h5>Make a transfer</h5>
+                      <h5>2. Define the Use Cases and Test Cases</h5>
                       <p>
-                        Simulate a money transference for another account.
+                        The test cases to validate the SUT can be assessed using both happy and unhappy flows. Each test case follows a template which makes easier to replicate, maintain and create new ones.
                       </p>
                     </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6">
+                  </div>  
+
                   <div class="twoline-managing-frame">
                     <div class="img-manage">
                       <img
-                        src="../assets/images/biometrics-types.png"
+                        src="../assets/images/feature-icon-11.png"
                         class="img-fluid"
-                        alt="biometrics-types"
+                        alt="feature-icon-1"
                       />
                     </div>
                     <div class="content-manage-frame">
-                      <h5>Different biometrics types</h5>
+                      <h5>3. Run each test case and check the results.</h5>
                       <p>
-                        Check how different types of biometric can be used to
-                        access services
+                        Running the test cases the user can analyse all the package (header and body) exchanged during the transactions. This allows a better understand of the information in case of run failures. 
                       </p>
                     </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6">
-                  <div class="twoline-managing-frame">
-                    <div class="img-manage">
-                      <img
-                        src="../assets/images/Alerts.png"
-                        class="img-fluid"
-                        alt="feature-icon-2"
-                      />
-                    </div>
-                    <div class="content-manage-frame">
-                      <h5>Simulate Alerts</h5>
-                      <p>
-                        Use incoming calls with voice verification to simulate
-                        alerts which requires user’s approval.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6">
-                  <div class="twoline-managing-frame">
-                    <div class="img-manage">
-                      <img
-                        src="../assets/images/passphrases.png"
-                        class="img-fluid"
-                        alt="passphrases"
-                      />
-                    </div>
-                    <div class="content-manage-frame">
-                      <h5>Multiple Passphrases</h5>
-                      <p>
-                        Increase the access security using multiples passphrase.
-                        During the user’s verification, one of the passphrases
-                        is randomly chosen.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6">
-                  <div class="twoline-managing-frame">
-                    <div class="img-manage">
-                      <img
-                        src="../assets/images/fingerprint.png"
-                        class="img-fluid"
-                        alt="feature-icon-6"
-                      />
-                    </div>
-                    <div class="content-manage-frame">
-                      <h5>Constant Indentity Verification</h5>
-                      <p>
-                        The biometric verification is required after a
-                        determined period of time to keep your access and
-                        account safe.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                  </div>  
+              
             </div>
           </div>
+          <div class="col-12 col-lg-1"></div>
+          <div class="col-12 col-lg-5">
+            <div class="row">
+                <img
+                  src="../assets/images/itp-interface.png"
+                  class="img-fluid"
+                  alt="usecase-content"
+                />
+              </div>
+          </div>
+          
         </div>
       </div>
     </section>
+
+    <!-- Section 3: ON Boarding and Certification -->
     <div class="mobile-app-content grey-bg">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-6">
-            <div class="img-app-wrap">
+          <div class="col-12 col-lg-5">
+            <div>
               <img
-                src="../assets/images/mobile-app.png"
+                src="../assets/images/NewGraphic-interoperability-02.png"
                 class="img-fluid"
                 alt="mobile-app"
               />
             </div>
           </div>
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-lg-7">
             <div class="app-content-wrap">
-              <h2>Mobile App</h2>
+              <h2>On-boarding and Certification</h2>
               <h6>
-                The mobile application demonstrates the potential of biometrics
-                in emerging markets as a flexible, open-source and adaptable way
-                to attend the needs of mobile operators. When necessary, the app
-                allows the connection with different biometrics suppliers that
-                do not require biometric sensors more than a microphone and a
-                camera.
+               Interoperability hub operators face many challenges when onboarding new participants. To maintain the overall health of the network, it is critical to ensure that new participants follow correct processes with respect to the interoperability protocol. The main focus was on supporting the operators with the many challenges faced during the onboarding and certification process. 
               </h6>
               <h6>
-                Users can use the different types of biometrics, perform the
-                enrolment process and navigate through the different use cases
-                to experience how the use of biometrics helps to increase
-                security when accessing and using services.
+                Therefore, any interested mobile operator or service provider can customise the available code to ensure that new participants follow the correct processes with respect to the interoperability protocol. For this, we provide documentation and direct support from our team to assist during the customisation process. All material is available on a page about the interoperability potential and how the Inclusive Tech Lab's technical assets can help speed up the testing and integration process.
               </h6>
             </div>
           </div>
-          <div class="col-12 col-lg-6">
-            <div class="img-app-wrap">
-              <img
-                src="../assets/images/mobile-app.png"
-                class="img-fluid"
-                alt="mobile-app"
-              />
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
 
-    <!-- <section class="tutorial-section text-center">
+    <section class="tutorial-section text-center">
       <div class="container">
         <div class="row">
           <div class="col-12">
-          <h2>Test our call centre now!</h2>
+          <h2>Customise your solution</h2>
             <p>
-              Access our documentation and get the most out your experience, <br/>
-              If you cannot find the use cases you need, please contact us  <br/>
-              Let's  
+              The modular architecture of ITP encompasses a large number of elements and covers the entire end-to-end mobile money transaction ecosystem. This means that each module of the platform's code can be customised to meet the desired needs. This is one of the great potentials of ITP. In addition, we can also isolate a subset of modules for restricted testing, covering a specific part of the entire interoperability ecosystem. 
             </p>
             <img src="../assets/images/Call.png" class="img-fluid" alt="Call" />
           </div>
         </div>
       </div>
-    </section> -->
+    </section> 
     <Footer />
   </div>
 </template>
@@ -257,6 +188,10 @@ export default {
 <style>
 .card-wrap h5 {
   font-weight: bold;
+}
+.center{
+  display: flex;
+  justify-content: center;
 }
 .card-wrap {
   background-color: #ffffff;
@@ -359,7 +294,7 @@ export default {
 }
 .mobile-app-content::after {
   content: "";
-  background-image: url("../assets/images/bg-5.png");
+  /* background-image: url("../assets/images/dots.png"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
