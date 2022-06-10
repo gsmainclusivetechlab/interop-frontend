@@ -57,11 +57,7 @@
           <div class="col-12 col-lg-6">
             <div class="bio-all-content-wrap">
               <h6>
-                In the world of mobile money, interoperability has been one of the industry’s north stars for years, 
-                as it holds the promise of an interconnected world in which people in emerging markets can send money 
-                to each other regardless of the mobile money service they are using. The mobile money industry is moving 
-                in the direction of interoperability, however, support by and the independent facilitation of the GSMA is 
-                often sought. Within this scenario, the Lab opens a dedicated workstream to support the industry.
+                The Inclusive Tech Lab is dedicated to support interoperability of financial services. The contributions go from researching the different technical models and releasing publications, to exploring how to test it and developing technical assets to assist mobile money providers in advancing the ecosystem.
               </h6>
               <h6>
                 
@@ -72,11 +68,10 @@
           <div class="col-12 col-lg-6">
             <div class="img-bio-content">
               <h6>
-                The GSMA’s Interoperability Test Platform is the first joint end-to-end test environment 
-                to test interoperable mobile money solutions, including joining two key technologies, 
-                the GSMA Mobile Money API and the Mojaloop. With this test platform, the GSMA provides 
-                the industry with an open-source and secure environment, enabling ecosystem participants 
-                to test their systems across different use cases.
+                With the trend towards increasingly interoperable end-to-end ecosystems, the need for industry participants to harness that complexity is becoming paramount. To support this need, we continue researching and assisting mobile operators to provide more interoperable systems. One of the assets created is the Interoperability Test Platform, a <a
+                href="https://github.com/gsmainclusivetechlab/interop-test-platform"
+                target="_blank"
+              > free and open-source</a> end-to-end test facility for mobile money providers and service providers alike. 
               </h6>
             </div>
           </div>

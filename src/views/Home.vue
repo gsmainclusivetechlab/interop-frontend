@@ -112,7 +112,7 @@
             <div class="col-12 col-lg-6">
               <div class="img-bio">
                 <img
-                  src="../assets/images/NewGraphic-interoperability-04.png"
+                  src="../assets/images/NewGraphic-interoperability-03.png"
                   class="img-fluid"
                   alt="usecase-content"
                 />
@@ -128,16 +128,16 @@
       <b-container>
         <b-row class="justify-content-start align-items-center">
           
-          <b-col cols="12" xl="6">
+          <b-col cols="12" xl="5">
             <div class="biometric-img-block">
               <img
-                  src="../assets/images/NewGraphic-interoperability-03.png"
+                  src="../assets/images/NewGraphic-interoperability-04.png"
                   class="img-fluid"
                   alt="usecase-content"
                 />
             </div>
           </b-col>
-
+          <b-col cols="12" xl="1"></b-col>
           <b-col cols="12" xl="6">
             <div class="biometric-content">
               <h2>
