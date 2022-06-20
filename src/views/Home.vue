@@ -170,46 +170,39 @@
                 <div class="col-12 col-md-6 col-lg-4">
                   <div class="card-wrap">
                     <img
-                      src="../assets/images/development.png"
+                      src="../assets/images/icon_world.png"
                       class="img-fluid"
                       alt="development"
                     />
-                    <h5>Regulation</h5>
+                    <h5>Openness and Communication</h5>
                     <h6>
-                      We understand that every business is unique, so our team
-                      is continuously developing new use cases and customising
-                      our assets to meet your business needs and objectives.
+                      Communication and openness are essential to elevate products to a wider range of services and connections with third parties.
                     </h6>
                   </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                   <div class="card-wrap">
                     <img
-                      src="../assets/images/trusted.png"
+                      src="../assets/images/icon_government.png"
                       class="img-fluid"
                       alt="trusted"
                     />
-                    <h5>TBD</h5>
+                    <h5>Mobile Money and Regulation</h5>
                     <h6>
-                      Adopting a new technology/service can be tricky to
-                      navigate, so we provide expertise to support you in
-                      understanding the impacts of using biometrics and during
-                      the adoption of biometrics solutions.
+                      Interoperability is one of the key points in the mobile money regulatory framework, demonstrating the importance of the area.
                     </h6>
                   </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                   <div class="card-wrap">
                     <img
-                      src="../assets/images/smartphones.png"
+                      src="../assets/images/icon_app.png"
                       class="img-fluid"
                       alt="smartphones"
                     />
-                    <h5>TBD</h5>
+                    <h5>Test-Driven and Security</h5>
                     <h6>
-                      Our solutions are built to be used on feature phones and
-                      low-tech smartphones with a low-resolution camera or no
-                      camera at all.
+                      The connectivity of interoperable environments allows easier testing and security analysis of applications, improving the services offered.
                     </h6>
                   </div>
                 </div>
