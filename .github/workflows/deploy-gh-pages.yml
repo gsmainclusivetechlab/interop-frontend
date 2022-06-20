@@ -20,10 +20,9 @@ jobs:
           run: npm run gh-pages-deploy
         - name: Change branch
           run: git checkout gh-pages
-#          - name: Create CNAME
-#            run: echo "interop.gsmainclusivetechlab.io" > CNAME
+        - name: Create CNAME
+          run: echo "interop.gsmainclusivetechlab.io" > CNAME
         - name: Create 404
           run: cp index.html 404.html
         - name: Push new files
-          run: git add 404.html && git commit -m "Update CNAME" && git push
-#             run: git add CNAME 404.html && git commit -m "Update CNAME" && git push
+          run: git add CNAME 404.html && git commit -m "Update CNAME and 404" && git push
