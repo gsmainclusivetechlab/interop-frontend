@@ -83,7 +83,7 @@
               <h3> </h3>
               <div  class="row center">
                 <p>
-                  <a href="/platform"  class="btn btn-lap">Learn More Here</a>
+                  <a href="https://www.gsma.com/mobilefordevelopment/interoperability/"  class="btn btn-lap">Learn More Here</a>
                 </p>
             </div>
               <h3></h3>
@@ -146,7 +146,7 @@
               <p>
                 The adoption of interoperability must be commercially sustainable for participants, both in terms of OPEX and revenue opportunities. This requires the evaluation of different parameters, namely: cost, revenue, scalability, robustness, governance; and also a set of harmonised APIs and tools that make the onboarding process for interoperability players much easier and faster.
               </p>
-              This is the reason why the Inclusive Tech Lab created an open-source platform to help industry players to evaluate different test cases, provide o-boarding and certification.
+              This is the reason why the Inclusive Tech Lab created an open-source platform to help industry players to evaluate different test cases, provide on-boarding and certification.
             </div>
           </b-col>
           
