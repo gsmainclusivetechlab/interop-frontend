@@ -156,7 +156,7 @@ a {
 }
 .navbar-light .navbar-nav .dropdown-item:hover,
 .navbar-light .navbar-nav .dropdown-item.active {
-  color: #6b3076 !important;
+  color: #63acdc !important;
   background: #fff;
   border-radius: 10px;
 }
