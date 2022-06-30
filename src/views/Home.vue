@@ -17,8 +17,8 @@
             <h1>MOBILE MONEY</h1>
             <h1>INTEROPERABILITY</h1>
             <div class="biometric-content-carousal">
-              <h4> Supporting the industry to accelerate </h4>
-              <h4> the third-part on-boarding and integrations.</h4>
+              <h4> Supporting the Industry to Accelerate </h4>
+              <h4> Open and Interconnected Payment Systems </h4>
               <div class="os-system-wrap">
                 <ul>
                   <li>
@@ -71,22 +71,27 @@
                 Mobile Money Interoperability
               </h3>
               <p>
-                In the payments landscape, interoperability refers to the ability to make an electronic money transfer between two accounts held at different institutions. In the specific context of mobile money, interoperability implies the transfer of mobile financial services between providers, many of whom are mobile network operators (MNOs), and between these providers and banks. This is known as account-to-account interoperability.
+                In the world of mobile money, interoperability has been one of the industry’s north stars for years, as it holds the promise of an interconnected 
+                world in which people in emerging markets can send money to each other regardless of the mobile money service they are using. 
               </p>
               
+              <p>
+                For over a decade, mobile money has been driving financial inclusion, opening access to digital transactions and giving people the tools 
+                to better manage their financial lives. The rapid rise of the mobile money industry has been accompanied by an increasing emphasis on the need for account-to-account interoperability.
+            </p>
+            <p></p>
             </div>
           </b-col>
           <b-col cols="12" md="1"></b-col>
           <b-col cols="12" md="5">
             <div class="content-digital">
-              <h4> Are you a mobile operator or financial services provider looking to adopt biometrics in emerging markets?</h4>
-              <h3> </h3>
+              <h4> Are you a mobile operator or financial services provider looking to provide interoperability in emerging markets?</h4>
+              <h4> Check what the Interoperability Test Platform can do for you!</h4>
               <div  class="row center">
                 <p>
-                  <a href="https://www.gsma.com/mobilefordevelopment/interoperability/"  class="btn btn-lap">Learn More Here</a>
+                  <a href="https://itp.gsmainclusivetechlab.io"  class="btn btn-lap">Read more</a>
                 </p>
             </div>
-              <h3></h3>
             </div>
           </b-col>
         </b-row>
@@ -102,10 +107,13 @@
               <div class="bio-content-wrap">
                 <h2>Connecting Financial Products</h2>
                 <p>
-                  In the context of mobile money, the term interoperability can be used in many ways, but the simplest use case is for mobile money providers (MMPs) to give customers the ability to transfer money between two accounts in different mobile money schemes, or between accounts at a mobile money scheme and a bank known as account-to-account (A2A) interoperability.
+                  Interoperability refers to the ability to make an electronic money transfer between two accounts held at different institutions. 
                 </p>
                 <p>
-                  Interoperability can connect all customers, merchants, banks and other financial service providers creating an harmonised ecosystem and providing financial inclusion bridging all financial products and applications in any given market.
+                  In the context of mobile money, the term interoperability can be used in many ways, but the simplest use case is for mobile money providers to give customers the ability to transfer money between two accounts in different mobile money schemes, or between accounts at a mobile money scheme and a bank, known as account-to-account (A2A) interoperability.
+                </p>
+                <p>
+                  Interoperable payment systems can connect customers, merchants, banks and other financial service providers, creating an open, harmonised ecosystem and providing greater financial inclusion.
                 </p>
               </div>
             </div>
@@ -141,12 +149,14 @@
           <b-col cols="12" xl="6">
             <div class="biometric-content">
               <h2>
-                Interoperability is Essential to Finance Ecosystem
+                Many Paths to Mobile Money Interoperability
               </h2>
               <p>
-                The adoption of interoperability must be commercially sustainable for participants, both in terms of OPEX and revenue opportunities. This requires the evaluation of different parameters, namely: cost, revenue, scalability, robustness, governance; and also a set of harmonised APIs and tools that make the onboarding process for interoperability players much easier and faster.
+                Mobile money interoperability has been implemented differently in different markets and contexts. The technical solutions deployed have been diverse, reflecting differences in scope and ambition, as well as evolving standards and regulations. While mobile money interoperability is not new, most solutions are still in their infancy.
               </p>
-              This is the reason why the Inclusive Tech Lab created an open-source platform to help industry players to evaluate different test cases, provide on-boarding and certification.
+              <p>
+                This is why the Inclusive Tech Lab created an open-source platform to help industry players to evaluate different technologies, develop interoperable solutions, and provide onboarding and certification capabilities for an interconnected world. 
+              </p>
             </div>
           </b-col>
           
@@ -160,9 +170,9 @@
         <div class="row">
           <div class="col-12">
             <div class="feature-content text-center">
-              <h2> How to make your products interoperable?</h2>
+              <h2> A Technological Blueprint</h2>
               <h6>
-                Drive your business to unlock new security technologies for your customers
+                How to make your products interoperable?
               </h6>
             </div>
             <div class="three-col-feature-frame">
@@ -174,9 +184,9 @@
                       class="img-fluid"
                       alt="development"
                     />
-                    <h5>Openness and Communication</h5>
+                    <h5>Common technologies and standards</h5>
                     <h6>
-                      Communication and openness are essential to elevate products to a wider range of services and connections with third parties.
+                      Industry alignment on standards and technical specifications.
                     </h6>
                   </div>
                 </div>
@@ -187,9 +197,9 @@
                       class="img-fluid"
                       alt="trusted"
                     />
-                    <h5>Mobile Money and Regulation</h5>
+                    <h5>Platform and integration tools</h5>
                     <h6>
-                      Interoperability is one of the key points in the mobile money regulatory framework, demonstrating the importance of the area.
+                      Enabling digital finance service providers to test relevant use cases and ensure they are ready to go for production.
                     </h6>
                   </div>
                 </div>
@@ -200,9 +210,9 @@
                       class="img-fluid"
                       alt="smartphones"
                     />
-                    <h5>Test-Driven and Security</h5>
+                    <h5>Onboarding and certification process</h5>
                     <h6>
-                      The connectivity of interoperable environments allows easier testing and security analysis of applications, improving the services offered.
+                      Schemes to ensure high-quality processes, and reliability, and security.
                     </h6>
                   </div>
                 </div>

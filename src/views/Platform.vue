@@ -11,17 +11,16 @@
               <div class="bio-content-wrap">
                 <h2>The Interoperability Test Platform</h2>
                 <p>
-                  The GSMA's Interoperability Test Platform is the first joint end-to-end test environment to test interoperable 
+                  The GSMA’s Interoperability Test Platform is the first joint end-to-end test environment to test interoperable 
                   mobile money solutions, including joining two key technologies, the <a href="https://www.gsma.com/mobilefordevelopment/mobile-money/mobile-money-api/"
                 target="_blank">GSMA Mobile Money API</a> and <a href="https://mojaloop.io/" target="_blank"> the Mojaloop.</a> 
-                  With this test platform, the GSMA provides the industry with an open-source and secure environment, enabling 
-                  ecosystem participants to test their systems across different use cases.
+                  With this test platform, the GSMA provides the industry with an open-source and secure environment, 
+                  enabling ecosystem participants to test their systems across different use cases.
                 </p>
                 <p>
                   The test platform links two key technologies in the mobile money industry; first, the GSMA Mobile Money API, 
-                  which provides a modern harmonised API for mobile money transactions and management, enabling seamless 
-                  integration between service providers and mobile money operators, and second, the Gates Foundation’s Mojaloop, 
-                  open-source software to operate a financial hub.
+                  which provides a modern harmonised API for mobile money transactions and management, enabling seamless integration 
+                  between service providers and mobile money operators, and second, the Gates Foundation’s Mojaloop, open-source software to operate a financial hub.
                 </p>
               </div>
             </div>
@@ -81,7 +80,7 @@
                     <div class="content-manage-frame">
                       <h5>1. Select the type of test and the system under test </h5>
                       <p>
-                        The sessions can be manually customised, or the platform suggests the tests based on a quick questionnaire.
+                        Sessions can be manually customised, or generated automatically by the platform based on a quick questionnaire.
                       </p>
                     </div>
                   </div>
@@ -97,7 +96,7 @@
                     <div class="content-manage-frame">
                       <h5>2. Define the Use Cases and Test Cases</h5>
                       <p>
-                        The test cases to validate the SUT can be assessed using both happy and unhappy flows. Each test case follows a template which makes easier to replicate, maintain and create new ones.
+                        Test cases to validate the SUT can be assessed using both happy and unhappy flows. Each test case follows a template which makes it easier to replicate, maintain and create new ones.
                       </p>
                     </div>
                   </div>  
@@ -113,7 +112,7 @@
                     <div class="content-manage-frame">
                       <h5>3. Run each test case and check the results.</h5>
                       <p>
-                        Running the test cases the user can analyse all the package (header and body) exchanged during the transactions. This allows a better understand of the information in case of run failures. 
+                        The platform analyses the full package (header and body) exchanged during transactions, enabling a better understanding of the information in case of run failures. 
                       </p>
                     </div>
                   </div>  
