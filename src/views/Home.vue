@@ -30,7 +30,7 @@
                     />
                     </a>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a href="https://compliance.mobilemoneyapi.io/login" target="_blank">
                     <img
                       src="../assets/images/download-compliance.png"
@@ -38,7 +38,7 @@
                       alt="Access the Compliance Platform"
                     />
                     </a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
             </div>
