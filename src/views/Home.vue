@@ -89,7 +89,7 @@
               <h4> Check what the Interoperability Test Platform can do for you!</h4>
               <div  class="row center">
                 <p>
-                  <a href="https://itp.gsmainclusivetechlab.io"  class="btn btn-lap">Read more</a>
+                  <a href="https://docs.interop.gsmainclusivetechlab.io/"  class="btn btn-lap">Read more</a>
                 </p>
             </div>
             </div>
