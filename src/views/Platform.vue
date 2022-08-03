@@ -35,7 +35,7 @@
               </div>
               <div  class="row center">
               <p>
-                <a href="http://itp.gsmainclusivetechlab.io/" target="_blank" text-align="center" class="btn">Access the Platform</a>
+                <a href="https://itp.gsmainclusivetechlab.io/" target="_blank" text-align="center" class="btn">Access the Platform</a>
               </p>
             </div>
             </div>
