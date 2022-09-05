@@ -420,8 +420,7 @@ hr {
   margin: 0;
 }
 .footer-wrapper .logo-main-footer img {
-  width: 46px;
-  height: 45px;
+  height: 30px;
 }
 @media only screen and (max-width: 1024px) {
   .gsma-form .modal-container {

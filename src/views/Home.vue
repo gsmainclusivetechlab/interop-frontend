@@ -22,7 +22,7 @@
               <div class="os-system-wrap">
                 <ul>
                   <li>
-                    <a href="http://interop.gsmainclusivetechlab.io/" target="_blank">
+                    <a href="https://itp.gsmainclusivetechlab.io/" target="_blank">
                     <img
                       src="../assets/images/download-itp.png"
                       class="img-fluid"
