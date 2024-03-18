@@ -1,6 +1,8 @@
 <template>
   <div class="topbar">
     <header>
+      <div class="inner-header" :style="{ paddingTop: isAlertVisible ? '50px' : '0' }"></div>
+      <alert-component :message="alertMessage" :is-visible="isAlertVisible" />
       <b-container fluid>
         <b-navbar toggleable="lg">
           <b-navbar-brand href="/">
@@ -58,8 +60,16 @@
 </template>
 
 <script>
+import AlertComponent from './Alert.vue';
 export default {
   name: "NavBar",
+  components: { AlertComponent },
+  data() {
+    return {
+      alertMessage: "This project has been archived as of the 31st of March 2024. Please contact inclusivetechlab@gsma.com for more information.",
+      isAlertVisible: true,
+    }
+  }
 };
 </script>
 

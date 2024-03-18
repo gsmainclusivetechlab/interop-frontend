@@ -42,7 +42,7 @@
         </b-container>
       </div>
     </section>
-    <div class="new-case-wrapper w-100 ">
+    <!-- <div class="new-case-wrapper w-100 ">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -67,7 +67,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <footer>
       <div class="footer-wrapper footer-bg">
@@ -133,7 +133,7 @@
                     <li>
                       <a href="/platform">How it works</a>
                     </li>
-                    <li><a href="/tryb4all">Try B4LL</a></li>
+                    <!-- <li><a href="/tryb4all">Try B4LL</a></li> -->
                     <li>
                       <a
                         href="https://docs.interop.gsmainclusivetechlab.io/"
