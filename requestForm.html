@@ -1,0 +1,338 @@
+<!-- FORM: HEAD SECTION -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="referrer" content="no-referrer-when-downgrade">
+            <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function(){
+            const FORM_TIME_START = Math.floor((new Date).getTime()/1000);
+            let formElement = document.getElementById("tfa_0");
+            if (null === formElement) {
+                formElement = document.getElementById("0");
+            }
+            let appendJsTimerElement = function(){
+                let formTimeDiff = Math.floor((new Date).getTime()/1000) - FORM_TIME_START;
+                let cumulatedTimeElement = document.getElementById("tfa_dbCumulatedTime");
+                if (null !== cumulatedTimeElement) {
+                    let cumulatedTime = parseInt(cumulatedTimeElement.value);
+                    if (null !== cumulatedTime && cumulatedTime > 0) {
+                        formTimeDiff += cumulatedTime;
+                    }
+                }
+                let jsTimeInput = document.createElement("input");
+                jsTimeInput.setAttribute("type", "hidden");
+                jsTimeInput.setAttribute("value", formTimeDiff.toString());
+                jsTimeInput.setAttribute("name", "tfa_dbElapsedJsTime");
+                jsTimeInput.setAttribute("id", "tfa_dbElapsedJsTime");
+                jsTimeInput.setAttribute("autocomplete", "off");
+                if (null !== formElement) {
+                    formElement.appendChild(jsTimeInput);
+                }
+            };
+            if (null !== formElement) {
+                if(formElement.addEventListener){
+                    formElement.addEventListener('submit', appendJsTimerElement, false);
+                } else if(formElement.attachEvent){
+                    formElement.attachEvent('onsubmit', appendJsTimerElement);
+                }
+            }
+        });
+    </script>
+
+    <link href="https://gsma.tfaforms.net/dist/form-builder/5.0.0/wforms-layout.css?v=43a3eeecfac8fe791f8255d5431c0d787df7acea" rel="stylesheet" type="text/css" />
+
+    <link href="https://gsma.tfaforms.net/uploads/themes/theme-34.css" rel="stylesheet" type="text/css" />
+    <link href="https://gsma.tfaforms.net/dist/form-builder/5.0.0/wforms-jsonly.css?v=43a3eeecfac8fe791f8255d5431c0d787df7acea" rel="alternate stylesheet" title="This stylesheet activated by javascript" type="text/css" />
+    <script type="text/javascript" src="https://gsma.tfaforms.net/wForms/3.11/js/wforms.js?v=43a3eeecfac8fe791f8255d5431c0d787df7acea"></script>
+    <script type="text/javascript">
+        wFORMS.behaviors.prefill.skip = false;
+    </script>
+        <script type="text/javascript" src="https://gsma.tfaforms.net/wForms/3.11/js/localization-en_US.js?v=43a3eeecfac8fe791f8255d5431c0d787df7acea"></script>
+    <script>
+        var FAoldJQ;
+        if (typeof $ != 'undefined' && $.noConflict) FAoldJQ = $.noConflict(true);
+    </script>
+    <script src="https://gsma.tfaforms.net/js/jquery/jquery-2.1.4.min.js"></script>
+    <script src="https://gsma.tfaforms.net/js/typeahead/v1.2.0/typeahead.bundle.js"></script>
+    <script>
+        var FA$ = $.noConflict(true);
+        if (FAoldJQ) $ = FAoldJQ;
+    </script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<!-- FORM: BODY SECTION -->
+<div class="wFormContainer" >
+    <div class="wFormHeader"></div>
+    <style type="text/css">
+                #tfa_2617,
+                *[id^="tfa_2617["] {
+                    width: 195px !important;
+                }
+                #tfa_2617-D,
+                *[id^="tfa_2617["][class~="field-container-D"] {
+                    width: auto !important;
+                }
+				.wFormContainer{
+					width: 800px;
+				}
+				.wForm input[type=text], 
+				.wForm input[type=time],
+				 .wForm input[type=number],
+				  .wForm input[type=url],
+				   .wForm input[type=email] {
+						width: 300px;
+						min-height: 30px;
+						border-color: #ddd;
+						border: 1px solid #ddd;
+						border-radius: 0;
+					}
+					.wForm .primaryAction, .wForm .secondaryAction{
+						background-color: #95236c;
+						border-radius: 0;
+						min-width: 155px;
+						min-height: 50px;
+						color: #fff;
+						padding: 10px;
+						display: flex;
+						margin: auto;
+						justify-content: center;
+						align-items: center;
+						font-size: 16px;
+
+						border: none;
+					}
+
+					.wForm .inputWrapper{
+						line-height: 20px;
+					}
+					.wForm .field-hint-inactive .hint {
+						opacity: 1;
+					}
+					.wForm .hintsBelow .field-hint, .wForm .hintsBelow .field-hint-inactive {
+						display: block;
+						margin-top: 10px;
+						color: #000;
+					}
+					.wForm textarea {
+						width: 300px;
+						min-height: 60px;
+						border-color: #ddd;
+						border: 1px solid #ddd;
+						border-radius: 0;
+						
+					}
+					.wForm .tt-search {
+						top: 23%;
+						color: #ddd;
+						}
+					.wForm label, .wForm .label,
+					.wForm span{
+						font-family: 'Arial';
+						font-weight: 400;
+					}
+					 html,
+					 body{
+						overflow: hidden;
+					}
+					@media only screen and (min-width:1025px){
+						/* .wForm .inline div.oneField,
+						 .wForm .inline div.wfContent{
+							 width: 100%;
+						 } */
+						 .wFormContainer{
+							max-width: 700px;
+							/* width: 100%; */
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							width: 100%;
+						 }
+					}
+					@media only screen and (max-width:1024px){
+						.wForm .inline div.oneField,
+						 .wForm .inline div.wfContent{
+							 width: 100%;
+							
+						 }
+						 .wFormContainer{
+							 max-width: 100%;
+							 width: 100%;
+						 }
+					}
+            </style><div class=""><div class="wForm" id="891-WRPR" dir="ltr">
+<div class="codesection" id="code-891"></div>
+<form method="post" action="https://gsma.tfaforms.net/responses/processor" class="hintsBelow labelsAbove" id="891" role="form">
+<div id="tfa_2352" class="section inline group">
+<div class="oneField field-container-D    " id="tfa_1-D">
+<label id="tfa_1-L" class="label preField reqMark" for="tfa_1">First Name</label><br><div class="inputWrapper"><input type="text" id="tfa_1" name="tfa_1" value="" aria-required="true" title="First Name" class="required"></div>
+</div>
+<div class="oneField field-container-D    " id="tfa_3-D">
+<label id="tfa_3-L" class="label preField reqMark" for="tfa_3">Last Name</label><br><div class="inputWrapper"><input type="text" id="tfa_3" name="tfa_3" value="" aria-required="true" title="Last Name" class="required"></div>
+</div>
+</div>
+<div id="tfa_2353" class="section inline group">
+<div class="oneField field-container-D    " id="tfa_5-D">
+<label id="tfa_5-L" class="label preField reqMark" for="tfa_5">Job Title</label><br><div class="inputWrapper"><input type="text" id="tfa_5" name="tfa_5" value="" aria-required="true" title="Job Title" class="required"></div>
+</div>
+<div class="oneField field-container-D    " id="tfa_7-D">
+<label id="tfa_7-L" class="label preField reqMark" for="tfa_7">Company Name</label><br><div class="inputWrapper"><input type="text" id="tfa_7" name="tfa_7" value="" aria-required="true" title="Company Name" class="required"></div>
+</div>
+</div>
+<div id="tfa_2362" class="section inline group">
+<div class="oneField field-container-D    " id="tfa_775-D">
+<label id="tfa_775-L" class="label preField reqMark" for="tfa_775">Email</label><br><div class="inputWrapper"><input type="text" id="tfa_775" name="tfa_775" value="" aria-required="true" title="Email" class="validate-email required"></div>
+</div>
+<div class="oneField field-container-D    " id="tfa_2358-D">
+<label id="tfa_2358-L" class="label preField reqMark" for="tfa_2358">Country / Region</label><br><div class="inputWrapper">
+<input type="text" id="tfa_2358" name="tfa_2358" value="" aria-required="true" title="Country / Region" data-dataset-allow-free-responses="0" autocomplete="off" data-dataset-timestamp="1613729895" data-dataset-id="fccdc607-6fe4-40b1-9470-ae54c6643fa2" data-dataset-map="" data-dataset-url="https://typeahead.formassembly.com" data-dataset-action="query.php" class="required wfAutosuggest"><i class="fa fa-spinner fa-pulse fa-fw tt-spinner"></i><i class="fa fa-search tt-search" aria-hidden="true"></i><i class="fa fa-times-circle tt-clear no-input" aria-hidden="true"></i>
+</div>
+</div>
+</div>
+<div class="oneField field-container-D    " id="tfa_2619-D">
+<label id="tfa_2619-L" class="label preField reqMark" for="tfa_2619">Use Case Description:<i><br></i></label><br><div class="inputWrapper">
+<textarea aria-required="true" aria-describedby="tfa_2619-HH" id="tfa_2619" name="tfa_2619" title="Use Case Description:" class="required"></textarea><span class="field-hint-inactive" id="tfa_2619-H"><span id="tfa_2619-HH" class="hint">Insert here a brief description of the process (what is happening) in the use case</span></span>
+</div>
+</div>
+<div class="oneField field-container-D    " id="tfa_2620-D">
+<label id="tfa_2620-L" class="label preField " for="tfa_2620">Why do you consider this use case useful?</label><br><div class="inputWrapper">
+<textarea aria-describedby="tfa_2620-HH" id="tfa_2620" name="tfa_2620" title="Why do you consider this use case useful?" class=""></textarea><span class="field-hint-inactive" id="tfa_2620-H"><span id="tfa_2620-HH" class="hint">Describe here why do you think this use case should be in our showcase and why it is important for you</span></span>
+</div>
+</div>
+<div class="oneField field-container-D    " id="tfa_776-D" role="group" aria-labelledby="tfa_776-L" data-tfa-labelledby="-L tfa_776-L">
+<label id="tfa_776-L" class="label preField "><u>Email Consent</u></label><br><div class="inputWrapper"><span id="tfa_776" class="choices vertical "><span class="oneChoice"><input type="checkbox" value="tfa_777" class="" id="tfa_777" name="tfa_777" aria-labelledby="tfa_777-L" data-tfa-labelledby="tfa_776-L tfa_777-L"><label class="label postField" id="tfa_777-L" for="tfa_777"><span class="input-checkbox-faux"></span><span style="color: rgb(82, 81, 81); font-size: 15px;">To ensure you stay up-to-date on the latest developments in the mobile industry, the GSMA would like to send you information about events, products, services and initiatives, as well as industry news. Please subscribe by ticking this box; once subscribed, you can tailor what you receive from us at any time, or unsubscribe, should you wish.</span></label></span></span></div>
+</div>
+<div id="tfa_2346" class="section group"><div class="htmlSection" id="tfa_2605"><div class="htmlContent" id="tfa_2605-HTML"><script type="text/javascript">
+/* Google Tracking Code   */
+
+(function(){ 
+	if(!document.querySelector && base2) {
+	  document.querySelector = base2.DOM.Element.querySelector
+	}
+	var gaId = document.querySelector('input.calc-GOOGLEACCOUNTID');
+	if(gaId) gaId = gaId.value;
+	
+	if(gaId && !window._gaq) {        
+	    window._gaq = window._gaq || [];
+	    window._gaq.push(['_setAccount', gaId]);
+        window._gaq.push(['_setAllowLinker', true]);
+	    window._gaq.push(['_trackPageview']);
+	  
+	    (function() {
+	      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	    })();
+	}
+})();
+ 
+</script></div></div></div>
+<input type="hidden" id="tfa_2602" name="tfa_2602" value="" class=""><div id="tfa_2603" class="section empty group wf-acl-hidden"></div>
+<div id="tfa_2611" class="section group">
+<div class="htmlSection" id="tfa_2612"><div class="htmlContent" id="tfa_2612-HTML"><script type="text/javascript">
+/* Google Tracking Code   */
+
+(function(){ 
+	if(!document.querySelector && base2) {
+	  document.querySelector = base2.DOM.Element.querySelector
+	}
+	var gaId = document.querySelector('input.calc-GOOGLEACCOUNTID');
+	if(gaId) gaId = gaId.value;
+	
+	if(gaId && !window._gaq) {        
+	    window._gaq = window._gaq || [];
+	    window._gaq.push(['_setAccount', gaId]);
+        window._gaq.push(['_setAllowLinker', true]);
+	    window._gaq.push(['_trackPageview']);
+	  
+	    (function() {
+	      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	    })();
+	}
+})();
+ 
+</script></div></div>
+<input type="hidden" id="tfa_2613" name="tfa_2613" value="utm_content__c" class=""><input type="hidden" id="tfa_2614" name="tfa_2614" value="utm_source__c" class=""><input type="hidden" id="tfa_2615" name="tfa_2615" value="utm_campaign__c" class=""><input type="hidden" id="tfa_2616" name="tfa_2616" value="utm_medium__c" class=""><input type="hidden" id="tfa_2617" name="tfa_2617" value="UA-1615388-90" class="calc-GOOGLEACCOUNTID"><div class="htmlSection" id="tfa_2618"><div class="htmlContent" id="tfa_2618-HTML"><script type="text/javascript">
+/* Google Form Event Tracking */
+(function(){ 
+
+	if (!window.addEventListener) { window.addEventListener = function (type, listener, useCapture) { attachEvent('on' + type, function() { listener(event) }); }}
+
+	// wait until wForms is loaded
+  	window.addEventListener('load', function() {    
+
+  		// Check if Google Tracking is enabled.
+  		if(window._gaq) {
+  			
+  			// Get form ID (assumes only one form on the page)
+			var formId = document.getElementById('tfa_dbFormId');
+
+  			// Check if wForms Paging behavior is enabled.
+  			if(wFORMS.behaviors.paging && formId) {
+  				  	
+  				// Count first page. 
+  				window._gaq.push(['_trackEvent', 'Form', 'Page View', formId.value, 1]);
+  				var countedPages = { 1: true };  				
+  				
+  				// Handler for page change events.
+  				var _pc = wFORMS.behaviors.paging.onPageChange;
+  				wFORMS.behaviors.paging.onPageChange = function(p) {
+  					
+  					try {
+  						var pageNumber = wFORMS.behaviors.paging.getPageIndex(p);
+	  						  					
+	  					// Count navigation to a given page only once
+	  					if(!(pageNumber in countedPages)) {
+	  						countedPages[pageNumber] = true;
+	  						window._gaq.push(['_trackEvent', 'Form', 'Page View', formId.value, 1]);	
+	  					}
+  					} catch(x){};
+  				
+  					// Call any other defined handler for onPageChange
+  					if (typeof _pc == 'function') try { _pc(); } catch(x) {};
+  				}
+  			}  	
+  			
+  			// Check if wForms Validation behavior is enabled.  			
+  			if(wFORMS.behaviors.validation && formId) {
+
+  				// Handler for submit event  				
+				var _pass = wFORMS.behaviors.validation.onPass;								
+				wFORMS.behaviors.validation.onPass = function(b,e) {
+
+					if(e && e.type=='submit') {
+						window._gaq.push(['_trackEvent', 'Form', 'Submit', formId.value]);	
+					}
+
+					// Call any other defined handler for onPass
+					if (typeof _pass == 'function') try { _pass(); } catch(x) {};
+				}  					
+			
+
+  				// Handler for validation failure events.
+	  			var _fail = wFORMS.behaviors.validation.onFail;	  			
+  				wFORMS.behaviors.validation.onFail = function(b) {
+  					var data = [];
+  					for(var err in b.elementsInError) {
+  						data.push(b.elementsInError[err].id + ' ' + b.elementsInError[err].rule);
+  					}
+  					window._gaq.push(['_trackEvent', 'Form', 'Validation Error', "Form #"+formId.value+": "+data.join(','), data.length]);	
+
+  					// Call any other defined handler for onFail
+	  				if (typeof _fail == 'function') try { _fail(); } catch(x) {};
+  				}	  			
+	  		}
+  		}
+  	});
+})();
+</script></div></div>
+</div>
+<div class="actions" id="891-A"><input type="submit" data-label="Submit" class="primaryAction" id="submit_button" value="Submit"></div>
+<div style="clear:both"></div>
+<input type="hidden" value="891" name="tfa_dbFormId" id="tfa_dbFormId"><input type="hidden" value="" name="tfa_dbResponseId" id="tfa_dbResponseId"><input type="hidden" value="e810cba273e7e7499163c09696071a01" name="tfa_dbControl" id="tfa_dbControl"><input type="hidden" value="" name="tfa_dbWorkflowSessionUuid" id="tfa_dbWorkflowSessionUuid"><input type="hidden" value="3" name="tfa_dbVersionId" id="tfa_dbVersionId"><input type="hidden" value="" name="tfa_switchedoff" id="tfa_switchedoff">
+</form>
+</div></div><div class="wFormFooter"><p class="supportInfo"><br></p></div>
+  <p class="supportInfo" >
+      </p>
+ </div>
